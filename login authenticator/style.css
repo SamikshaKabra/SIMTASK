@@ -1,0 +1,36 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #4b3702202;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(184, 141, 141);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #error-message {
+    color: red;
+    text-align: center;
+  }
+  
