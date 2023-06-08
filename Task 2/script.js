@@ -6,10 +6,9 @@ document.getElementById("login-form").addEventListener("submit", function(event)
   
    
     if (username === "admin" && password === "password") {
-      
-      window.location.href = "dashboard.html"; 
+      alert('login successful!');
     } else {
-      document.getElementById("error-message").textContent = "Invalid username or password.";
+      alert('Invalid username or password. Please try again');
     }
   });
   
